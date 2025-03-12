@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div>Hello Vite</div>
+        <div>{ import.meta.env.VITE_GREET }</div>
     )
 }
 
